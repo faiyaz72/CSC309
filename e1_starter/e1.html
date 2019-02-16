@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+ <head>
+ 	<meta charset="utf-8">
+    <title>Exercise 1: Twitter Layout</title>
+    <link rel="stylesheet" type="text/css" href="e1_style.css">
+ </head>
+
+ <body>
+ 	<img id="bigProfilePicCircle" src="uoft.jpg">
+ 	
+ 	<!-- The header -->
+ 	<div id="header">
+ 		<!-- Twitter logo goes in here -->
+ 		<img class="birdLogo" src="bird.png">
+ 	</div>
+
+	<!-- The big banner image -->
+ 	<div id="banner"> <!-- Just holds the banner image, don't need to style this div. -->
+
+ 		<!-- Banner image goes in here -->
+ 		<img class="bannerPic" src="uoft_banner.jpeg">
+
+ 	</div>
+
+ 	<div id="profileStats">
+
+
+ 		<ul>
+ 			<!-- Style the list element: Label and number -->
+ 			<li>Tweets<br><span class="profileStatsNumber">478</span></li>
+ 			<li>Followers<br><span class="profileStatsNumber">23K</span></li>
+ 			<!-- Add the rest of the stats below -->
+ 			<li>Following<br><span class="profileStatsNumber">12</span></li>
+ 			<li>Likes<br><span class="profileStatsNumber">10.3K</span></li>
+ 		</ul>
+ 	</div>
+
+ 	<div id='timeline'>
+
+ 		<div class='timelineHeader'>
+ 			<ul>
+	 			<li><a href="">Tweets</a></li>
+	 			<li><a href="">Tweets & Replies</a></li>
+ 			</ul>
+ 		</div>
+
+ 		<!-- First tweet -->
+ 		<div class='tweet'>
+ 			<!-- Put the tweet icon and content in this div.
+ 			You should have two divs inside this div: one that is a container for the tweet icon,
+ 			and one that has the content of the tweet.
+ 			Remember to look in the starter CSS for appropriate class names that 
+ 			match these descriptions. -->
+ 			<div class="tweetContent"> 
+ 				<span class="tweetTitle"> Univeristy of Toronto <span class="grey">@UofT</span></span>
+ 				<p>Another great day at Uoft! <span class="hashtag">#Uoft #GreatDay</span></p>
+
+ 			</div>
+ 			<div class="tweetIconContainer">
+ 				<img class="tweetIcon" src="uoft.jpg">
+ 			</div>
+ 		</div>
+
+ 		<!-- Second tweet -->
+ 		<div class='tweet'>
+ 			<!-- Reuse all of the tweet classes from the one above, 
+ 			and just change the content of the tweet. -->
+ 			<div class="tweetContent"> 
+ 				<span class="tweetTitle"> Emirates <span class="grey">@EK</span></span>
+ 				<p>Free Flights to Dubai for UofT Students! <span class="hashtag">#Uoft #Emirates #Free</span></p>
+ 				<img class="tweetContentPicture" src="ek.jpg">
+
+ 			</div>
+ 			<div class="tweetIconContainer">
+ 				<img class="tweetIcon" src="emirates.png">
+ 			</div>
+
+
+ 		</div>
+
+		<!-- Add your own tweet below -->
+ 	</div>
+
+ 	<!-- The Profile Info Section -->
+ 	<div id="profileInfo">
+ 		<h2>University of Toronto</h2>
+ 		<p class="grey">@UofT</p>
+ 		<p>
+ 			Connect with Canada's top university and one of the world’s strongest academic and research powerhouses. Find the latest news & events @uoftnews. #UofT
+		</p>
+ 	</div>
+
+
+ 	<!-- The Timeline Section -->
+ 	
+ </body>
+</html>
